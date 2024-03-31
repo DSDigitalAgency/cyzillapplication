@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Cyzill",
+    "slug": "Cyzill",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyBzE9bz84Bdwy24I5DAjwVhgjijqgrEEdU"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.cyzill.cyzill",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBzE9bz84Bdwy24I5DAjwVhgjijqgrEEdU"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2b640910-656b-41cd-9cc5-8c9d4c667925"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2b640910-656b-41cd-9cc5-8c9d4c667925"
+    }
+  }
+}
